@@ -1,0 +1,6 @@
+specbee_time.settings:
+  title: 'Specbee Time'
+  description: 'Specbee Time Settings.'
+  parent: system.admin_config_system
+  route_name: specbee_time.settings
+  menu_name: main

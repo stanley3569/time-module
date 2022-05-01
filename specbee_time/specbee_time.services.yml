@@ -1,0 +1,4 @@
+services:
+  specbee_time.custom_services:
+    class: 'Drupal\specbee_time\TimeService'
+    arguments: ['@config.factory', '@datetime.time', '@date.formatter']

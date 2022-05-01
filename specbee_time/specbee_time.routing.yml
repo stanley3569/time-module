@@ -1,0 +1,9 @@
+specbee_time.settings:
+  path: '/admin/config/specbee-time/settings'
+  defaults:
+    _form: '\Drupal\specbee_time\Form\SpecbeeTimeConfigForm'
+    _title: 'Specbee Time Form'
+  requirements:
+    _permission: 'administer specbee_time'
+  options:
+    _admin_route: TRUE

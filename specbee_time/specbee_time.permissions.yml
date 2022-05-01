@@ -1,0 +1,4 @@
+administer specbee_time:
+  title: 'Administer Specbee Time'
+  description: 'Allow to access the administration form to configure Specbee Time.'
+  restrict access: true

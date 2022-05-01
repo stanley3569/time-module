@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * {@inheritdoc}
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function specbee_time_theme($existing, $type, $theme, $path) {
+  return [
+    'specbee_time_block' => [
+      'variables' => [
+        'country' => NULL,
+        'city' => NULL,
+        'dateTime' => NULL,
+      ],
+    ],
+  ];
+}

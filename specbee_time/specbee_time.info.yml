@@ -1,0 +1,6 @@
+name: Specbee Time
+description: Current time of the site location
+package: Custom
+
+type: module
+core_version_requirement: ^8 || ^9
